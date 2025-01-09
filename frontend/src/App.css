@@ -1,0 +1,62 @@
+/* Leaderboard.css */
+.leaderboard-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.leaderboard-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.leaderboard-table thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.leaderboard-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leaderboard-row:hover {
+  background-color: #ddd;
+}
+
+.leaderboard-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.leaderboard-table td {
+  color: #555;
+}
+
+.leaderboard-table tr:first-child {
+  font-weight: bold;
+}
+
+.leaderboard-table tr:last-child {
+  border-bottom: 2px solid #4CAF50;
+}

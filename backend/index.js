@@ -15,7 +15,7 @@ app.use(express.json());
 const playerRoutes = require('./routes/playerRoutes');
 app.use('/api/players', playerRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.MONGO_URI || 5000;
 mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.log(err));
